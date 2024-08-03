@@ -18,7 +18,7 @@ const CustomInput = ({ options }) => {
         value={inputValue}
         onChange={(e) => setInputValue(e.target.value)}
         onClick={() => setIsOpen(!isOpen)}
-        className="block w-full px-12 py-3 text-[10px] text-gray-600 shadow-md rounded-lg  focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+        className="block bg-blue-100 w-full px-12 py-3 text-[10px] text-gray-600 shadow-md rounded-lg  focus:outline-none focus:ring-blue-500 focus:border-blue-500"
         placeholder="Select Agency"
       />
       {isOpen && (

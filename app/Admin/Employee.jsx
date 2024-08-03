@@ -47,7 +47,7 @@ function Employee() {
           </div>
         </div>
       </div>
-      <div className="sm:flex sm:flex-wrap sm:justify-around p-10 w-full mt-2 h-[1000px] sm:h-[490px] bg-blue-100 rounded-md shadow-sm shadow-gray-200">
+      <div className="sm:flex sm:flex-wrap sm:justify-around p-10 w-full mt-2 h-[1000px] sm:h-[490px] bg-blue-200 rounded-md shadow-sm shadow-gray-200">
         <div className="w-full sm:w-auto mb-4 sm:mb-0">
           <div className="flex justify-center text-[20px] text-white font-bold mb-2">Agents</div>
           <div className="w-full sm:w-[450px] rounded-md h-96 bg-white scrollbar-custom">

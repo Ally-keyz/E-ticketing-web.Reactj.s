@@ -17,7 +17,7 @@ function Potal() {
 
 
   return (
-    <div className='h-[585px] w-full flex bg-blue-100'>
+    <div className='h-[585px] w-full flex bg-blue-200'>
         <div className="hidden md:flex absolute left-[820px] top-10 text-[20px] text-white font-bold ">Admin</div>
         <div className="h-[585px] w-[620px] bg-blue-400  " style={{borderTopRightRadius:530}}>
          <div className="mt-32 ml-52 flex  text-[20px] text-white font-bold">
@@ -47,14 +47,14 @@ function Potal() {
         type="text"
         value={nameMail}
         onChange={(e) => setNameMail(e.target.value)}
-        className="block w-full px-12 py-2 text-[10px] text-gray-600 shadow-md rounded-lg mt-2  focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+        className="block w-full bg-blue-100 px-12 py-2 text-[10px] text-gray-600 shadow-md rounded-lg mt-2  focus:outline-none focus:ring-blue-500 focus:border-blue-500"
         placeholder="Email or name"
       />
            <input
         type='password'
         value={Password}
         onChange={(e) => setPassword(e.target.value)}
-        className="block w-full px-12 py-2 text-[10px] text-gray-600 shadow-md rounded-lg mt-2  focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+        className="block w-full bg-blue-100 px-12 py-2 text-[10px] text-gray-600 shadow-md rounded-lg mt-2  focus:outline-none focus:ring-blue-500 focus:border-blue-500"
         placeholder="Password"
       />
 
@@ -77,14 +77,14 @@ function Potal() {
         type="text"
         value={nameMail}
         onChange={(e) => setNameMail(e.target.value)}
-        className="block w-full px-12 py-2 text-[10px] text-gray-600 shadow-md rounded-lg mt-2  focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+        className="block bg-blue-100 w-full px-12 py-2 text-[10px] text-gray-600 shadow-md rounded-lg mt-2  focus:outline-none focus:ring-blue-500 focus:border-blue-500"
         placeholder="Email or name"
       />
            <input
         type='password'
         value={Password}
         onChange={(e) => setPassword(e.target.value)}
-        className="block w-full px-12 py-2 text-[10px] text-gray-600 shadow-md rounded-lg mt-2  focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+        className="block bg-blue-100 w-full px-12 py-2 text-[10px] text-gray-600 shadow-md rounded-lg mt-2  focus:outline-none focus:ring-blue-500 focus:border-blue-500"
         placeholder="Password"
       />
        <div  className="text-center text-white bg-blue-400 pt-1 mt-16    text-[11px] font-semibold rounded cursor-pointer border transition-colors duration-500 hover:bg-blue-200 border-opacity-5  w-52 h-7 ">

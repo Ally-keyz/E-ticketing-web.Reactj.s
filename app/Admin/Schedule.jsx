@@ -43,7 +43,7 @@ function Schedule() {
       <div className="flex mt-2 justify-center text-blue-400 text-[13px] font-semibold">
         Northern province travels
       </div>
-      <div className="sm:flex sm:flex-wrap sm:justify-around p-10 w-full mt-2  h-[490px] bg-blue-100 rounded-md shadow-sm shadow-gray-200">
+      <div className="sm:flex sm:flex-wrap sm:justify-around p-10 w-full mt-2  h-[490px] bg-blue-200 rounded-md shadow-sm shadow-gray-200">
       <div className="w-full sm:w-auto mb-4 sm:mb-0">
           <div className="w-full sm:w-[1000px] rounded-md h-96 bg-white scrollbar-custom">
             <div className="flex h-10 w-full sm:w-[960px] ml-0 sm:ml-9 justify-around border-b border-gray-400">
@@ -81,7 +81,7 @@ function Schedule() {
         <div className="flex mt-7 justify-center text-blue-400 text-[13px] font-semibold">
         Southern province travels
       </div>
-      <div className="sm:flex sm:flex-wrap sm:justify-around p-10 w-full mt-2  h-[490px] bg-blue-100 rounded-md shadow-sm shadow-gray-200">
+      <div className="sm:flex sm:flex-wrap sm:justify-around p-10 w-full mt-2  h-[490px] bg-blue-200 rounded-md shadow-sm shadow-gray-200">
       <div className="w-full sm:w-auto mb-4 sm:mb-0">
           <div className="w-full sm:w-[1000px] rounded-md h-96 bg-white scrollbar-custom">
             <div className="flex h-10 w-full sm:w-[960px] ml-0 sm:ml-9 justify-around border-b border-gray-400">
@@ -157,7 +157,7 @@ function Schedule() {
         <div className="flex mt-7 justify-center text-blue-400 text-[13px] font-semibold">
         Western province travels
       </div>
-      <div className="sm:flex sm:flex-wrap sm:justify-around p-10 w-full mt-2  h-[490px] bg-blue-100 rounded-md shadow-sm shadow-gray-200">
+      <div className="sm:flex sm:flex-wrap sm:justify-around p-10 w-full mt-2  h-[490px] bg-blue-200 rounded-md shadow-sm shadow-gray-200">
       <div className="w-full sm:w-auto mb-4 sm:mb-0">
           <div className="w-full sm:w-[1000px] rounded-md h-96 bg-white scrollbar-custom">
             <div className="flex  h-10 w-full sm:w-[960px] ml-0 sm:ml-9 justify-around border-b border-gray-400">
