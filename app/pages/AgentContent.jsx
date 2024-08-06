@@ -5,7 +5,7 @@ import logo from '../assets/logo.png';
 import home from '../assets/home.png';
 import employee from '../assets/employee.png';
 import schedule from '../assets/schedule-icon-35779.png';
-import report from '../assets/Report.png';               
+import report from '../assets/Report.png';
 import right from '../assets/right-arrow-icon-7589.png';
 import '../Admin/custom-scrollbar.css';
 import search from '../assets/tabler_search.png'
@@ -15,12 +15,9 @@ import profile from '../assets/user-244-32.png'
 import '../Admin/ripple.css';
 
 
-                      
-const Layout = ({ children }) => {
+const AgentLayout = ({ children }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [searchText, setSearchText] = useState('');
-
-
 
   const handleChange = (e) => {
     setSearchText(e.target.value);
@@ -47,21 +44,17 @@ const Layout = ({ children }) => {
           </div>
         </div>
         <nav className="flex-1 px-2 py-1 space-y-1">
-          <NavLink to="/Dash" className="flex button text-[9px] items-center px-2 py-2 text-sm font-semibold rounded transition-colors duration-700 hover:bg-blue-300">
+          <NavLink to="/Agent" className="flex button text-[9px] items-center px-2 py-2 text-sm font-semibold rounded transition-colors duration-700 hover:bg-blue-300">
             <img src={home} className="mr-3 h-5 w-5" alt="Home" />
             Home
           </NavLink>
-          <NavLink to="Employee" className="flex button text-[9px] items-center px-2 py-2 text-sm font-semibold rounded transition-colors duration-700 hover:bg-blue-300">
-            <img src={employee} className="mr-3 h-5 w-5" alt="Employees" />
-            Employees
-          </NavLink>
           <NavLink to="Schedule" className="flex button text-[9px] items-center px-2 py-2 text-sm font-semibold rounded transition-colors duration-700 hover:bg-blue-300">
             <img src={schedule} className="mr-3 h-5 w-5" alt="Schedule" />
-            Schedule  
+            Schedule
           </NavLink>
-          <NavLink to="Reporting" className="flex button text-[9px] items-center px-2 py-2 text-sm font-semibold rounded transition-colors duration-700 hover:bg-blue-300">
+          <NavLink to="Booking" className="flex button text-[9px] items-center px-2 py-2 text-sm font-semibold rounded transition-colors duration-700 hover:bg-blue-300">
             <img src={report} className="mr-3 h-5 w-5" alt="Reports" />
-            Reports
+            Tickets
           </NavLink>
         </nav>
         <div className="flex pl-5 mb-10 cursor-pointer">
@@ -110,9 +103,8 @@ const Layout = ({ children }) => {
     </div>
   );
 };
-                                                                                                               
-export default Layout;
+
+export default AgentLayout;
 
 
 
-                                                                                                                      

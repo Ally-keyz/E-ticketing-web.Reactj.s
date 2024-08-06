@@ -14,6 +14,10 @@ import Home2 from '../app/Admin/Home.jsx'
 import Schedule from '../app/Admin/Schedule.jsx';
 import Reporting from '../app/Admin/Reporting.jsx'
 import Employee from '../app/Admin/Employee.jsx'
+import AgentLayout0 from '../app/pages/AgentLayOut.jsx'
+import HomeAgent from '../app/Agents/HomeAgent.jsx'
+import AgentSchedule from '../app/Agents/AgentSchedule.jsx'
+import AgentBooking from '../app/Agents/AgentBooking.jsx'
 
 
 const router = createBrowserRouter(
@@ -29,6 +33,11 @@ const router = createBrowserRouter(
         <Route path="Schedule" element={<Schedule />} />
         <Route path='Reporting' element={<Reporting />} />
         <Route path='Employee' element={<Employee />} />
+      </Route>
+      <Route path="Agent" element={<AgentLayout0 />}>
+        <Route path='' element={<HomeAgent />} /> {/* Default child route */}
+        <Route path="Schedule" element={<AgentSchedule />} />
+        <Route path='Booking' element={<AgentBooking />} />
       </Route>
     </Route>
   )

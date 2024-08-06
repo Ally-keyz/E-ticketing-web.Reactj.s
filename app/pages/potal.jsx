@@ -32,7 +32,7 @@ function Potal() {
             <img src="app/assets/9-removebg-preview.png" width={250} height={150} alt="" />
          </div>
          <div className=" mt-36 sm:ml-10">
-         <div className="ml-10 flex text-[13px] text-gray-800 text-opacity-55 font-bold">Login as an agent</div>
+         <div className="ml-10 flex text-[13px] text-white text-opacity-55 font-bold">Login as an agent</div>
          <div onClick={openModal} className="text-center  text-blue-400 bg-white pt-1 mt-5 sm:ml-12  text-[13px] font-semibold rounded cursor-pointer transition-colors duration-500 hover:bg-blue-200 border-opacity-5  w-24 h-7 ">
                 Login
             </div>
@@ -42,7 +42,7 @@ function Potal() {
         <div className="flex justify-center bg-white absolute left-16 sm:left-[700px] top-32  rounded-lg shadow-xl  w-[320px] h-96  ">
             <div className="">
             <div className=" mt-5 ml-20 mb-10 text-[20px] text-blue-400 font-bold">ETIX</div>
-            <CustomInput options={options} />
+            <CustomInput options={options} placeHolders={'Select Agency'} />
             <input
         type="text"
         value={nameMail}
@@ -72,7 +72,7 @@ function Potal() {
             </div>
             <div className="pl-10">
             <div className=" mt-5 ml-20 mb-10 text-[20px]  text-blue-400 font-bold">ETIX</div>
-            <CustomInput options={options} />
+            <CustomInput options={options} placeHolders={'Select Agency'} />
             <input
         type="text"
         value={nameMail}
@@ -87,9 +87,11 @@ function Potal() {
         className="block bg-blue-100 w-full px-12 py-2 text-[10px] text-gray-600 shadow-md rounded-lg mt-2  focus:outline-none focus:ring-blue-500 focus:border-blue-500"
         placeholder="Password"
       />
-       <div  className="text-center text-white bg-blue-400 pt-1 mt-16    text-[11px] font-semibold rounded cursor-pointer border transition-colors duration-500 hover:bg-blue-200 border-opacity-5  w-52 h-7 ">
-                Login
-            </div>
+       <Link to={'/Agent'}  className="">
+       <div className="text-center text-white bg-blue-400 pt-1 mt-16    text-[11px] font-semibold rounded cursor-pointer border transition-colors duration-500 hover:bg-blue-200 border-opacity-5  w-52 h-7 ">
+       Login
+       </div>  
+            </Link>
             </div>
             </div>
         </Modal>
